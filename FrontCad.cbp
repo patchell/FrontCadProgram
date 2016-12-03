@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FrontCad" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="E:/FrontCad/Release/FrontCad" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="E:/FrontCad/Debug/FrontCad" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="ArcTan.cpp" />
+		<Unit filename="ButtonMsg.cpp" />
+		<Unit filename="ButtonMsg.h" />
+		<Unit filename="CadArc.cpp" />
+		<Unit filename="CadArc.h" />
+		<Unit filename="CadArcCentered.cpp" />
+		<Unit filename="CadArcCentered.h" />
+		<Unit filename="CadDrawing.cpp" />
+		<Unit filename="CadDrawing.h" />
+		<Unit filename="CadElipse.cpp" />
+		<Unit filename="CadElipse.h" />
+		<Unit filename="CadHoleRnd1Flat.cpp" />
+		<Unit filename="CadHoleRnd1Flat.h" />
+		<Unit filename="CadHoleRnd2Flat.cpp" />
+		<Unit filename="CadHoleRnd2Flat.h" />
+		<Unit filename="CadHoleRound.cpp" />
+		<Unit filename="CadHoleRound.h" />
+		<Unit filename="CadLibObject.cpp" />
+		<Unit filename="CadLibObject.h" />
+		<Unit filename="CadLibrary.cpp" />
+		<Unit filename="CadLibrary.h" />
+		<Unit filename="CadLine.cpp" />
+		<Unit filename="CadLine.h" />
+		<Unit filename="CadObject.cpp" />
+		<Unit filename="CadObject.h" />
+		<Unit filename="CadPolygon.cpp" />
+		<Unit filename="CadPolygon.h" />
+		<Unit filename="CadPolygonFill.cpp" />
+		<Unit filename="CadPolygonFill.h" />
+		<Unit filename="CadRect.cpp" />
+		<Unit filename="CadRect.h" />
+		<Unit filename="CadRectHole.cpp" />
+		<Unit filename="CadRectHole.h" />
+		<Unit filename="CadRoundRect.cpp" />
+		<Unit filename="CadRoundRect.h" />
+		<Unit filename="CadText.cpp" />
+		<Unit filename="CadText.h" />
+		<Unit filename="ComboBoxFontWeight.cpp" />
+		<Unit filename="ComboBoxFontWeight.h" />
+		<Unit filename="ComboBoxHoleType.cpp" />
+		<Unit filename="ComboBoxHoleType.h" />
+		<Unit filename="ComboBoxLibPartSelector.cpp" />
+		<Unit filename="ComboBoxLibPartSelector.h" />
+		<Unit filename="ComboBoxLibrary.cpp" />
+		<Unit filename="ComboBoxLibrary.h" />
+		<Unit filename="EditDecimal.cpp" />
+		<Unit filename="EditDecimal.h" />
+		<Unit filename="FileParser.cpp" />
+		<Unit filename="FileParser.h" />
+		<Unit filename="FrontCad.cpp" />
+		<Unit filename="FrontCad.h" />
+		<Unit filename="FrontCad.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="FrontCad.reg" />
+		<Unit filename="FrontCadDefines.h" />
+		<Unit filename="FrontCadDoc.cpp" />
+		<Unit filename="FrontCadDoc.h" />
+		<Unit filename="FrontCadView.cpp" />
+		<Unit filename="FrontCadView.h" />
+		<Unit filename="HorzScrollBar.cpp" />
+		<Unit filename="HorzScrollBar.h" />
+		<Unit filename="LibFormView.cpp" />
+		<Unit filename="LibFormView.h" />
+		<Unit filename="LibSplitterWnd.cpp" />
+		<Unit filename="LibSplitterWnd.h" />
+		<Unit filename="MainFrm.cpp" />
+		<Unit filename="MainFrm.h" />
+		<Unit filename="MyComboBox.cpp" />
+		<Unit filename="MyComboBox.h" />
+		<Unit filename="MyEdit.cpp" />
+		<Unit filename="MyEdit.h" />
+		<Unit filename="MyTabCtrl.cpp" />
+		<Unit filename="MyTabCtrl.h" />
+		<Unit filename="NewLibDialog.cpp" />
+		<Unit filename="NewLibDialog.h" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="RoundRectPropDialog.cpp" />
+		<Unit filename="RoundRectPropDialog.h" />
+		<Unit filename="SaveToLibDlg.cpp" />
+		<Unit filename="SaveToLibDlg.h" />
+		<Unit filename="Scale.cpp" />
+		<Unit filename="Scale.h" />
+		<Unit filename="ScaleWizDialog.cpp" />
+		<Unit filename="ScaleWizDialog.h" />
+		<Unit filename="ScaleWizTabOne.cpp" />
+		<Unit filename="ScaleWizTabOne.h" />
+		<Unit filename="SplitterUtility.cpp" />
+		<Unit filename="SplitterUtility.h" />
+		<Unit filename="StaticBitmap.cpp" />
+		<Unit filename="StaticBitmap.h" />
+		<Unit filename="StaticPreview.cpp" />
+		<Unit filename="StaticPreview.h" />
+		<Unit filename="StdAfx.cpp" />
+		<Unit filename="StdAfx.h" />
+		<Unit filename="UtilView.cpp" />
+		<Unit filename="UtilView.h" />
+		<Unit filename="WizTab2Dialog.cpp" />
+		<Unit filename="WizTab2Dialog.h" />
+		<Unit filename="WizTab3Dialog.cpp" />
+		<Unit filename="WizTab3Dialog.h" />
+		<Unit filename="res/FrontCad.ico" />
+		<Unit filename="res/FrontCad.rc2" />
+		<Unit filename="res/FrontCadDoc.ico" />
+		<Unit filename="res/Toolbar.bmp" />
+		<Unit filename="resource.h" />
+		<Unit filename="ruler.cpp" />
+		<Unit filename="ruler.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
